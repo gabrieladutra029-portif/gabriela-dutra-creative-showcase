@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    /* Creative color palette - Purple/Blue/Pink gradients */
+    /* Creative color palette - Indigo/Orange scheme */
     --background: 0 0% 100%;
     --foreground: 240 10% 15%;
 
@@ -16,23 +16,23 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 15%;
 
-    /* Creative primary - Deep purple */
-    --primary: 260 85% 45%;
+    /* Creative primary - Dark indigo */
+    --primary: 249 84% 16%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 260 85% 65%;
-    --primary-dark: 260 85% 25%;
+    --primary-light: 249 84% 35%;
+    --primary-dark: 249 84% 8%;
 
-    /* Creative secondary - Soft blue */
-    --secondary: 249 25% 96%;
-    --secondary-foreground: 249 84% 16%;
+    /* Creative secondary - Light orange */
+    --secondary: 37 100% 96%;
+    --secondary-foreground: 30 50% 30%;
 
-    --muted: 249 20% 96%;
-    --muted-foreground: 249 15% 50%;
+    --muted: 37 20% 96%;
+    --muted-foreground: 30 15% 50%;
 
-    /* Creative accent - Vibrant pink */
-    --accent: 320 85% 65%;
-    --accent-foreground: 0 0% 100%;
-    --accent-light: 320 85% 85%;
+    /* Creative accent - Light orange */
+    --accent: 37 100% 89%;
+    --accent-foreground: 30 50% 30%;
+    --accent-light: 37 100% 95%;
     
     /* Skills orange - Light orange for buttons */
     --skills-orange: 37 100% 89%;
@@ -43,21 +43,21 @@
 
     --border: 249 20% 90%;
     --input: 249 20% 90%;
-    --ring: 260 85% 45%;
+    --ring: 249 84% 16%;
 
     --radius: 1rem;
 
     /* Creative gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(260, 85%, 45%), hsl(249, 84%, 16%));
-    --gradient-secondary: linear-gradient(135deg, hsl(320, 85%, 65%), hsl(260, 85%, 65%));
-    --gradient-accent: linear-gradient(135deg, hsl(249, 84%, 16%), hsl(320, 85%, 65%));
-    --gradient-hero: linear-gradient(135deg, hsl(260, 85%, 45%) 0%, hsl(249, 84%, 16%) 50%, hsl(320, 85%, 65%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(249, 84%, 16%), hsl(37, 100%, 89%));
+    --gradient-secondary: linear-gradient(135deg, hsl(37, 100%, 89%), hsl(249, 84%, 35%));
+    --gradient-accent: linear-gradient(135deg, hsl(249, 84%, 16%), hsl(37, 100%, 89%));
+    --gradient-hero: linear-gradient(135deg, hsl(249, 84%, 16%) 0%, hsl(37, 100%, 89%) 50%, hsl(249, 84%, 35%) 100%);
     --gradient-orange: linear-gradient(135deg, hsl(37, 100%, 89%), hsl(45, 100%, 85%));
     
     /* Elegant shadows */
-    --shadow-soft: 0 4px 20px -4px hsl(260, 85%, 45%, 0.1);
-    --shadow-medium: 0 8px 30px -6px hsl(260, 85%, 45%, 0.15);
-    --shadow-strong: 0 12px 40px -8px hsl(260, 85%, 45%, 0.2);
+    --shadow-soft: 0 4px 20px -4px hsl(249, 84%, 16%, 0.1);
+    --shadow-medium: 0 8px 30px -6px hsl(249, 84%, 16%, 0.15);
+    --shadow-strong: 0 12px 40px -8px hsl(249, 84%, 16%, 0.2);
     
     /* Smooth transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

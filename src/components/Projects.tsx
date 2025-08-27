@@ -54,7 +54,7 @@ const Projects = () => {
                 <div className={`h-48 bg-gradient-to-br ${project.color} relative overflow-hidden`}>
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-smooth"></div>
                   <div className="absolute top-4 right-4">
-                    <Badge variant="secondary" className="bg-white/90 text-foreground">
+                    <Badge variant="secondary" className="bg-skills-orange/90 text-skills-orange-foreground">
                       {project.category}
                     </Badge>
                   </div>
@@ -91,7 +91,7 @@ const Projects = () => {
                       <Badge 
                         key={index} 
                         variant="outline" 
-                        className="text-xs border-primary/20 text-primary/80 hover:bg-primary/10 transition-smooth"
+                        className="text-xs bg-skills-orange text-skills-orange-foreground border-skills-orange hover:bg-skills-orange/80 transition-smooth"
                       >
                         {tag}
                       </Badge>

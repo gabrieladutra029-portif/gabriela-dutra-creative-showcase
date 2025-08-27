@@ -61,7 +61,7 @@ const Contact = () => {
                       </label>
                       <Input 
                         placeholder="Seu nome completo"
-                        className="border-border/50 focus:border-primary transition-smooth"
+                        className="border-border/50 focus:border-skills-orange focus:ring-skills-orange/20 transition-smooth"
                       />
                     </div>
                     <div>
@@ -71,7 +71,7 @@ const Contact = () => {
                       <Input 
                         type="email"
                         placeholder="seu.email@exemplo.com"
-                        className="border-border/50 focus:border-primary transition-smooth"
+                        className="border-border/50 focus:border-skills-orange focus:ring-skills-orange/20 transition-smooth"
                       />
                     </div>
                   </div>
@@ -82,7 +82,7 @@ const Contact = () => {
                     </label>
                     <Input 
                       placeholder="Sobre o que você gostaria de falar?"
-                      className="border-border/50 focus:border-primary transition-smooth"
+                      className="border-border/50 focus:border-skills-orange focus:ring-skills-orange/20 transition-smooth"
                     />
                   </div>
                   
@@ -93,7 +93,7 @@ const Contact = () => {
                     <Textarea 
                       placeholder="Conte-me mais sobre seu projeto..."
                       rows={5}
-                      className="border-border/50 focus:border-primary transition-smooth resize-none"
+                      className="border-border/50 focus:border-skills-orange focus:ring-skills-orange/20 transition-smooth resize-none"
                     />
                   </div>
                   
@@ -119,8 +119,8 @@ const Contact = () => {
                   <Card key={index} className="shadow-soft border-0 bg-white/80 backdrop-blur-sm hover:shadow-medium transition-smooth">
                     <CardContent className="p-6">
                       <div className="flex items-center space-x-4">
-                        <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center">
-                          <item.icon className="h-6 w-6 text-white" />
+                        <div className="w-12 h-12 bg-gradient-orange rounded-full flex items-center justify-center">
+                          <item.icon className="h-6 w-6 text-skills-orange-foreground" />
                         </div>
                         <div>
                           <h4 className="font-semibold text-foreground">{item.title}</h4>

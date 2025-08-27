@@ -47,6 +47,10 @@ export default {
 					foreground: 'hsl(var(--accent-foreground))',
 					light: 'hsl(var(--accent-light))'
 				},
+				skills: {
+					orange: 'hsl(var(--skills-orange))',
+					'orange-foreground': 'hsl(var(--skills-orange-foreground))'
+				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
 					foreground: 'hsl(var(--popover-foreground))'

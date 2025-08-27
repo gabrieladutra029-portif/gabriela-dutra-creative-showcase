@@ -63,7 +63,7 @@ const About = () => {
                   <Badge 
                     key={index} 
                     variant="secondary" 
-                    className="px-3 py-1 text-sm bg-accent/10 text-accent-foreground border border-accent/20 hover:bg-accent/20 transition-smooth"
+                    className="px-3 py-1 text-sm bg-skills-orange text-skills-orange-foreground border border-skills-orange hover:bg-skills-orange/80 transition-smooth"
                   >
                     {skill}
                   </Badge>

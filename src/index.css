@@ -33,6 +33,10 @@
     --accent: 320 85% 65%;
     --accent-foreground: 0 0% 100%;
     --accent-light: 320 85% 85%;
+    
+    /* Skills orange - Light orange for buttons */
+    --skills-orange: 37 100% 89%;
+    --skills-orange-foreground: 30 50% 30%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;

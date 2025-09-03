@@ -105,11 +105,23 @@ const IdentityVisualSlides = () => {
             {slides[currentSlide].content}
           </p>
           
-          {/* Placeholder for actual slide content */}
-          <div className="mt-12 h-64 bg-muted rounded-lg flex items-center justify-center">
-            <p className="text-muted-foreground">
-              Conteúdo da página {currentSlide + 1}
-            </p>
+          {/* Slide content */}
+          <div className="mt-12">
+            {currentSlide === 0 ? (
+              <div className="flex justify-center">
+                <img 
+                  src="/lovable-uploads/e305cb7b-1ed7-4a97-ba19-17144d1a76b3.png" 
+                  alt="Manual de Marca - Cafezinho da Tânia" 
+                  className="max-w-full h-auto rounded-lg shadow-lg"
+                />
+              </div>
+            ) : (
+              <div className="h-64 bg-muted rounded-lg flex items-center justify-center">
+                <p className="text-muted-foreground">
+                  Conteúdo da página {currentSlide + 1}
+                </p>
+              </div>
+            )}
           </div>
         </div>
       </div>

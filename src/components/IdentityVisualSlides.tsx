@@ -10,48 +10,59 @@ const IdentityVisualSlides = () => {
 
   const slides = [
     {
-      title: "Identidade Visual - Página 1",
-      content: "Conceitos iniciais e briefing do projeto de identidade visual."
+      title: "Manual de Identidade Visual",
+      content: "Capa do manual de marca do Cafezinho da Tânia.",
+      image: "/lovable-uploads/e305cb7b-1ed7-4a97-ba19-17144d1a76b3.png"
     },
     {
-      title: "Identidade Visual - Página 2", 
-      content: "Análise de mercado e referências visuais."
+      title: "O Projeto - Cafezinho da Tânia", 
+      content: "Conceito e propósito: oferecer uma experiência acolhedora, saborosa e única.",
+      image: "/lovable-uploads/b8f8bc10-0484-4e38-afe1-20e4077eb076.png"
     },
     {
-      title: "Identidade Visual - Página 3",
-      content: "Desenvolvimento do conceito e moodboard."
+      title: "Conceito Gastronômico",
+      content: "Combinando o aroma do café fresco com o sabor das melhores tapiocas da região.",
+      image: "/lovable-uploads/b5ed1af1-44be-4f76-8026-c99aa4a2d4ec.png"
     },
     {
-      title: "Identidade Visual - Página 4",
-      content: "Estudos tipográficos e paleta de cores."
+      title: "Desenvolvimento do Logotipo",
+      content: "Processo criativo e conceitual para a criação da marca.",
+      image: "/lovable-uploads/e1123588-c95a-413e-a915-e812c2b3707b.png"
     },
     {
-      title: "Identidade Visual - Página 5",
-      content: "Criação do logotipo - primeira versão."
+      title: "Logotipo Principal",
+      content: "Versão final do logotipo do Cafezinho da Tânia.",
+      image: "/lovable-uploads/d09dbd59-3a24-497a-8442-3a719b13811f.png"
     },
     {
-      title: "Identidade Visual - Página 6",
-      content: "Refinamento e evolução do logotipo."
+      title: "Conceito Visual - Banner",
+      content: "Desenvolvimento de materiais promocionais e de comunicação.",
+      image: "/lovable-uploads/98a10786-afaf-468d-b689-da96283fe331.png"
     },
     {
-      title: "Identidade Visual - Página 7",
-      content: "Versões do logotipo e variações."
+      title: "Material Promocional",
+      content: "Banner criado para um espaço acolhedor com tapiocas artesanais e café fresco.",
+      image: "/lovable-uploads/ac17f2db-d101-481f-b987-99aa0aac5c11.png"
     },
     {
-      title: "Identidade Visual - Página 8",
-      content: "Manual de identidade visual - grid e construção."
+      title: "Versões do Logotipo",
+      content: "Diferentes aplicações e versões da marca para diversos usos.",
+      image: "/lovable-uploads/c927265c-4880-42e8-88c0-4af14a790014.png"
     },
     {
-      title: "Identidade Visual - Página 9",
-      content: "Aplicações em papelaria institucional."
+      title: "Variações Cromáticas",
+      content: "Estudo de cores e aplicações da marca em diferentes contextos.",
+      image: "/lovable-uploads/5e4ac08f-460c-4954-ac02-fdc104bb452c.png"
     },
     {
-      title: "Identidade Visual - Página 10",
-      content: "Aplicações digitais e redes sociais."
+      title: "Paleta de Cores",
+      content: "Definição das cores principais e complementares da identidade visual.",
+      image: "/lovable-uploads/df4280ef-ca6a-4cb6-ac4b-5d5b1ecd23f7.png"
     },
     {
-      title: "Identidade Visual - Página 11",
-      content: "Sinalização e materiais promocionais."
+      title: "Aplicações em Papelaria",
+      content: "Cartão de visita e especificações técnicas das cores da marca.",
+      image: "/lovable-uploads/89b10a7d-1214-4175-91b7-4efe72b10714.png"
     },
     {
       title: "Identidade Visual - Página 12",
@@ -107,12 +118,12 @@ const IdentityVisualSlides = () => {
           
           {/* Slide content */}
           <div className="mt-12">
-            {currentSlide === 0 ? (
+            {slides[currentSlide].image ? (
               <div className="flex justify-center">
                 <img 
-                  src="/lovable-uploads/e305cb7b-1ed7-4a97-ba19-17144d1a76b3.png" 
-                  alt="Manual de Marca - Cafezinho da Tânia" 
-                  className="max-w-full h-auto rounded-lg shadow-lg"
+                  src={slides[currentSlide].image} 
+                  alt={slides[currentSlide].title} 
+                  className="max-w-full h-auto rounded-lg shadow-lg max-h-96 object-contain"
                 />
               </div>
             ) : (

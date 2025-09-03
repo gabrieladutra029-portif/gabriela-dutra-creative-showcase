@@ -41,8 +41,10 @@ const About = () => {
                 Acredito que o bom design vai além da estética - ele comunica, 
                 inspira e resolve problemas reais. Cada projeto é uma oportunidade 
                 de contar uma história única e memorável.
-              </p>
-              
+              </p><br />
+
+
+              <a href="/CurriculoGabrielaATS.pdf" download>
               <Button 
                 className="bg-gradient-primary hover:shadow-medium transition-smooth text-white border-0"
                 size="lg"
@@ -50,6 +52,7 @@ const About = () => {
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
               </Button>
+              </a>
             </div>
 
             <div className="space-y-6">

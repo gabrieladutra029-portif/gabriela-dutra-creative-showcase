@@ -10,9 +10,7 @@ const About = () => {
   ];
 
   const achievements = [
-    { icon: Award, title: "5+ Anos", description: "Experiência em Design" },
-    { icon: Users, title: "50+ Clientes", description: "Projetos Realizados" },
-    { icon: Lightbulb, title: "100+ Ideias", description: "Conceitos Criados" }
+    { icon: Award, title: "2+ Anos", description: "Experiência em Design" }
   ];
 
   return (
@@ -35,7 +33,7 @@ const About = () => {
                 Minha Jornada Criativa
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Com mais de 5 anos de experiência em design, especializo-me em criar 
+                Com mais de 2 anos de experiência em design, especializo-me em criar 
                 identidades visuais marcantes e experiências digitais intuitivas. 
                 Minha abordagem combina criatividade estratégica com execução técnica precisa.
               </p>

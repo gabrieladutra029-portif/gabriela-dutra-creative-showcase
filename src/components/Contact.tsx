@@ -15,21 +15,14 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Telefone",
-      info: "+55 (11) 99999-9999",
-      action: "tel:+5511999999999"
-    },
-    {
-      icon: MapPin,
-      title: "Localização",
-      info: "São Paulo, SP",
-      action: null
+      info: "+55 (61) 98365-5910",
+      action: "tel:+556198365-5910"
     }
   ];
 
   const socialLinks = [
-    { icon: Instagram, name: "Instagram", url: "https://instagram.com/gabrieladutra" },
-    { icon: Linkedin, name: "LinkedIn", url: "https://linkedin.com/in/gabrieladutra" },
-    { icon: Globe, name: "Portfolio", url: "https://gabrieladutra.com" }
+    { icon: Instagram, name: "Instagram", url: "https://www.instagram.com/gabidutra.designer/" },
+    { icon: Linkedin, name: "LinkedIn", url: "https://www.linkedin.com/in/gabriela-dutra-oliveira" }
   ];
 
   return (

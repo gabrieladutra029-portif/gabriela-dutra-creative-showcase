@@ -9,9 +9,9 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Identidade Visual - TechFlow",
+      title: "Manual de Marca - Cafezinho da Tânia",
       category: "Branding",
-      description: "Desenvolvimento completo de identidade visual para startup de tecnologia, incluindo logotipo, paleta de cores e aplicações.",
+      description: "Desenvolvimento completo de identidade visual para cafeteria, incluindo logotipo, paleta de cores, tipografia e aplicações.",
       tags: ["Branding", "Logo Design", "Visual Identity"],
       color: "from-purple-500 to-blue-500"
     },

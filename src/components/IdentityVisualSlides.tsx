@@ -65,16 +65,19 @@ const IdentityVisualSlides = () => {
       image: "/lovable-uploads/89b10a7d-1214-4175-91b7-4efe72b10714.png"
     },
     {
-      title: "Identidade Visual - Página 12",
-      content: "Mockups e apresentação final."
+      title: "Variações de Tamanho",
+      content: "Diferentes tamanhos e aplicações do logotipo para diversos contextos.",
+      image: "/lovable-uploads/776bb542-f742-4635-a136-bad1fd1197a6.png"
     },
     {
-      title: "Identidade Visual - Página 13",
-      content: "Guia de implementação e uso da marca."
+      title: "Tipografia e Fontes",
+      content: "Definição das fontes principais: Playfair Display e Hatton.",
+      image: "/lovable-uploads/eb8ae4a6-f78a-4b02-81e0-8d434737553b.png"
     },
     {
-      title: "Identidade Visual - Página 14",
-      content: "Conclusão e entregáveis finais do projeto."
+      title: "Informações de Contato",
+      content: "Página final com dados de contato da designer responsável pelo projeto.",
+      image: "/lovable-uploads/93b362a5-9a42-4d83-abb9-eb07d6825f08.png"
     }
   ];
 
@@ -99,7 +102,7 @@ const IdentityVisualSlides = () => {
             <X className="h-4 w-4 mr-2" />
             Fechar
           </Button>
-          <h1 className="text-xl font-semibold">Identidade Visual</h1>
+          <h1 className="text-xl font-semibold">Manual de Marca - Cafezinho da Tânia</h1>
         </div>
         <div className="text-sm text-muted-foreground">
           {currentSlide + 1} de {totalSlides}

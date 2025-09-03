@@ -2,8 +2,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Eye } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Projects = () => {
+  const navigate = useNavigate();
   const projects = [
     {
       id: 1,
@@ -64,6 +66,11 @@ const Projects = () => {
                         size="sm"
                         className="bg-white/20 hover:bg-white/30 text-white border-white/30 backdrop-blur-sm"
                         variant="outline"
+                        onClick={() => {
+                          if (project.id === 1) {
+                            navigate('/identity-visual-slides');
+                          }
+                        }}
                       >
                         <Eye className="h-4 w-4 mr-1" />
                         Ver
